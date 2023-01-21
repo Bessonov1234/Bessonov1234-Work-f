@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+	font-family: "GraphikLCG";
+	src: url(../Fonts/GraphikLCG-Regular.ttf) format("woff2");
+	font-display: fallback;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "GraphikLCG";
+	src: url(../Fonts/GraphikLCG-Semibold.ttf) format("woff2");
+	font-display: fallback;
+	font-weight: 600;
+}
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+
+  font-family: "GraphikLCG", sans-serif;
+}
+.body {
+	background: #ffffff;
+}
+a {
+	color:#000000;
+	text-decoration: none;
+}
